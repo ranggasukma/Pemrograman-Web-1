@@ -1,0 +1,21 @@
+.satu{
+	background-color: pink;
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+.dua{
+	background-color: lightgreen;
+	width: 50%;
+	height: 100px;
+	float: right;
+}
+.tiga{
+	background-color: lightskyblue;
+	width: 100%;
+	height: 100px;
+
+}
+.clear{
+	clear: both;
+}

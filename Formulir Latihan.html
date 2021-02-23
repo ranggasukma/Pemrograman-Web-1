@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir pada HTML</title>
+	<h1>Formulir</h1>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<legend>Data Pribadi</legend>
+			<label for="nama">Nama</label><br>
+			<input type="text" name="nama" id="nama"><br>
+			<label for="alamat">Alamat</label><br>
+			<input type="text" name="alamat" id="alamat">
+			<br>
+			<label>Jenis kelamin</label><br>
+			<input type="radio" name="jenis_kelamin" id="jenis_kelamin">
+			Laki-Laki
+			<input type="radio" name="jenis_kelamin" id="jenis_kelamin">
+			Perempuan <br>
+			<label for="agama">Agama</label><br>
+			<select id="agama">
+				<option>Islam</option>
+				<option>Kristen</option>
+				<option>Katolik</option>
+				<option>Buddha</option>
+			</select><br>
+			<label for="tempat_lahir">Tempat Lahir</label><br>
+			<input type="text" name="tempat_lahir" id="tempat_lahir"><br>
+			<label>Tanggal Lahir</label><br>
+			<input type="date" name="tgl_lahir" id="tgl_lahir"><br>
+			<label for="alamat">Alamat</label><br>
+			<textarea cols="50" rows="10"></textarea><br>
+		</fieldset><br>
+	<fieldset>
+		<legend>Pendidikan</legend>
+		<label for="sekolah">SD</label><br>
+		<input type="text" name="sekolah" id="sekolah">
+		Masuk <input type="month" name="sekolah" id="sekolah">
+		Lulus <input type="month" name="sekolah" id="sekolah"><br><br>
+		<label for="sekolah">SMP</label><br>
+		<input type="text" name="sekolah" id="sekolah">
+		Masuk <input type="month" name="sekolah" id="sekolah">
+		Lulus <input type="month" name="sekolah" id="sekolah"><br><br>
+		<label for="sekolah">SMK</label><br>
+		<input type="text" name="sekolah" id="sekolah">
+		Masuk <input type="month" name="sekolah" id="sekolah">
+		Lulus <input type="month" name="sekolah" id="sekolah">
+	</fieldset>
+
+	<fieldset>
+		<legend>Pelatihan</legend>
+		<label for="minat">Minat</label> <br>
+		<input type="checkbox" name="minat" id="minat">HTML
+		<input type="checkbox" name="minat" id="minat">CSS
+		<input type="checkbox" name="minat" id="minat">JAVASCRIPT <br>
+	
+		
+		<label for="kompetensi">Kompetensi</label><br>
+		<input type="checkbox" name="kompetensi" id="kompetensi">HTML
+		<input type="checkbox" name="kompetensi" id="kompetensi">CSS
+		<input type="checkbox" name="minat" id="kompetensi">JAVASCRIPT
+	</fieldset>
+	<button type="submit">Submit</button>
+	<button type="reset">Reset</button>
+	</form>
+</body>
+
